@@ -1,0 +1,94 @@
+body {
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'PT Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    border: 2px solid white;
+    width: 30%;
+}
+
+.background-main {
+    border: 0.01px solid rgba(0, 0, 0, 0.228);
+    background-color: black;
+    background-image: url("../images/home_background3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* height: 1700px;  */
+    
+}
+
+.little-main {
+    /* border: 2px solid pink; */
+    margin-top:500px;
+    /* height: 1200px;  */
+    padding: 0;
+}
+
+.barre-articles {
+    /* border: 2px solid red; */
+    background-color: rgb(27, 27, 48);
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-actu {
+    border: 2px solid rgb(99, 10, 10);
+    background-color: rgb(99, 10, 10);
+    font-weight: 501;
+    /* padding-left: 30px; */
+    margin-left: 0;
+}
+
+.categories {
+    margin-right: 25px;
+}
+
+.barre-articles .nav-link {
+    color: white;
+}
+
+/* Galerie de liens vers d'autres articles */
+
+.galerie-item{
+	overflow: hidden;
+	padding: 8px;
+}
+.galerie-item .box{
+	height: 100%;
+	overflow: hidden;
+}
+.box img{
+	height: 100%;
+	width: auto;
+	object-fit:cover;
+}
+
+/* TOUS LES MEDIA QUERIES */
+
+@media screen and (min-width: 360px) and (max-width: 414px) {
+
+.little-main {
+    margin-top: 160px;
+}
+
+.smallones {
+    border: 3px solid red;
+    height: 80%;
+}
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 900px) {
+
+.little-main {
+        margin-top: 300px;
+}
+    
+}
